@@ -1,0 +1,22 @@
+/* Grid */
+.container{
+    border: dotted 5px blue;
+    padding: 10px;
+}
+
+.row{
+    border: solid 5px purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.col, .col-4, .col-2, .col-1, .col-11{
+    border: dashed 2px red;
+    height: 100%;
+    margin: 0;
+}
+
+#largura-limitada{
+    max-width: 500px;
+}
