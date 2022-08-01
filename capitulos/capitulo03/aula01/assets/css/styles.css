@@ -1,0 +1,67 @@
+/* XS */
+h1{
+    color: darkcyan;
+}
+
+/* SM >= 576px */
+@media(min-width: 576px){
+    h1{
+        color: cyan;
+    }
+}
+
+/* MD >= 768px */
+@media(min-width: 768px){
+    h1{
+        color: lightcyan;
+    }
+}
+
+/* LG >= 992px */
+@media(min-width: 992px){
+    h1{
+        color: blue;
+    }
+}
+
+/* XL >= 1200px */
+@media(min-width: 1200px){
+    h1{
+        color: lightblue;
+    }
+}
+
+/* XXL >= 1400px */
+@media(min-width: 1400px){
+    h1{
+        color: teal;
+    }
+}
+
+.btn-primary{
+    background-color: darkcyan;
+    transition: 0.4s;
+    border-radius: 15px;
+}
+
+.btn-primary:hover{
+    background-color: transparent;
+    color: darkcyan;
+    border: solid 1px darkcyan;
+}
+
+/* Container breakpoint */
+.container-sm{
+    border: solid 2px blue;
+    margin-bottom: 30px;
+}
+
+.container-md{
+    border: solid 2px crimson;
+    margin-bottom: 30px;
+}
+
+.container-lg{
+    border: solid 2px chocolate;
+    margin-bottom: 30px;
+}
