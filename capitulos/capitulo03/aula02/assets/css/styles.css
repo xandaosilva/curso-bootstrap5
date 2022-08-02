@@ -43,3 +43,17 @@
     height: 50px;
     border: solid 2px red;
 }
+
+/* gutter */
+#gutter .row{
+    height: 200px;
+}
+
+#gutter .col-6{
+    margin: auto;
+    height: auto;
+}
+
+.row p{
+    border: solid 2px green;
+}
