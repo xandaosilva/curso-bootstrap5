@@ -11,7 +11,7 @@
     margin: 0;
 }
 
-.col, .col-4, .col-2, .col-1, .col-11{
+.col, .col-1, .col-2, .col-3, .col-4, .col-6, .col-11{
     border: dashed 2px red;
     height: 100%;
     margin: 0;
@@ -19,4 +19,18 @@
 
 #largura-limitada{
     max-width: 500px;
+}
+
+/* Alinhamento vertical */
+.vertical{
+    height: 250px;
+    border-color: coral;
+}
+
+.vertical .row{
+    height: 100%;
+}
+
+.vertical .col-3, .vertical .col-6, .vertical .col-4 {
+    height: 50px;
 }
