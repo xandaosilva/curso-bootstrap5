@@ -31,6 +31,15 @@
     height: 100%;
 }
 
-.vertical .col-3, .vertical .col-6, .vertical .col-4 {
+.vertical .col-3, .vertical .col-6, .vertical .col-4{
     height: 50px;
+}
+
+#offset{
+    height: auto;
+}
+
+#offset .col-md-3{
+    height: 50px;
+    border: solid 2px red;
 }
