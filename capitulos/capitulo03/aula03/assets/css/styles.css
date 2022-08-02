@@ -1,0 +1,13 @@
+.col{
+    color: #eac195;
+    height: 50px;
+    border: solid 1px #b49b85;
+}
+
+.even{
+    background-color: #19274e;
+}
+
+.odd{
+    background-color: #536d88;
+}
