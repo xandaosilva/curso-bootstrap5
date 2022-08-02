@@ -1,0 +1,27 @@
+.row{
+    padding: 1.3rem;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px lightgray;
+}
+
+.bi{
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+
+.bi.bi-emoji-angry-fill{
+    color: red;
+}
+
+.bi.bi-emoji-neutral-fill{
+    color: gray;
+}
+
+.bi.bi-emoji-smile-fill{
+    color: green;
+}
