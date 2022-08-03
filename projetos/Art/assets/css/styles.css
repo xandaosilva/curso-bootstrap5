@@ -115,3 +115,31 @@ a, i{
     height: 250px;
     margin-bottom: 20px;
 }
+
+/* Footer */
+footer{
+    border-top: solid 1px #ccc;
+    height: 250px;
+    padding: 30px;
+}
+
+footer p{
+    text-align: center;
+    margin: 20px;
+}
+
+footer i{
+    font-size: 20px;
+}
+
+#social-icons-container{
+    padding: 25px;
+}
+
+#social-icons-container div{
+    text-align: center;
+}
+
+a:hover i{
+    color: #c1b696;
+}
