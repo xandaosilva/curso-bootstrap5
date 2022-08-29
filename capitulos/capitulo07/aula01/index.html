@@ -79,5 +79,52 @@
             <button type="submit" class="btn btn-primary">Cadastrar</button>
         </form>
     </div>
+
+    <!-- Inputs -->
+    <div class="col-4 m-4">
+        <h2>Teste de input de arquivo</h2>
+        <form action="">
+            <div class="mb-4">
+                <label for="foto" class="form-label">Apenas um arquivo</label>
+                <input type="file" name="foto" id="foto" class="form-control">
+            </div>
+            <div class="mb-4">
+                <label for="fotos" class="form-label">Múltiplos arquivos</label>
+                <input type="file" name="fotos" id="fotos" class="form-control" multiple>
+            </div>
+            <div class="mb-4">
+                <label for="fotosDesabilitados" class="form-label">Arquivos desabilitados</label>
+                <input type="file" name="fotosDesabilitados" id="fotosDesabilitados" class="form-control" disabled>
+            </div>
+        </form>
+    </div>
+
+    <!-- dataList -->
+    <div class="col-4 m-4">
+        <h2>Data list</h2>
+        <form>
+            <div class="mb-4">
+                <label for="cidades" class="form-label">Selecione uma cidade</label>
+                <input class="form-control" list="datalistOptions" id="cidades" placeholder="Busque a sua cidade">
+                <datalist id="datalistOptions">
+                    <option value="São Paulo"></option>
+                    <option value="Rio de Janeiro"></option>
+                    <option value="Minas gerais"></option>
+                    <option value="Espírito Santo"></option>
+                </datalist>
+            </div>
+        </form>
+    </div>
+
+    <!-- Colors -->
+    <div class="col-4 m-4">
+        <h2>Data list</h2>
+        <form>
+            <div class="mb-4">
+                <label for="cor" class="form-label">Selecione uma cor</label>
+                <input type="color" name="cor" id="cor" class="form-control form-control-color" id="cor" value="#000" title="Escolha sua cor">
+            </div>
+        </form>
+    </div>
 </body>
 </html>
