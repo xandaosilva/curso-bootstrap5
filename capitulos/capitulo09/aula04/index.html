@@ -90,5 +90,48 @@
             </div>
         </div>
     </div>
+    <div class="col-6 m-4">
+        <h2>Close button</h2>
+        <p>Clique para fechar <button type="button" class="btn-close" aria-label="Close"></button></p>
+    </div>
+    <div class="col-6 m-4">
+        <h2>Collapse</h2>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-expanded="false" aria-controls="collapse">Clique para exibir/esconder</button>
+        <div class="collapse" id="collapse">
+            <div class="col-12 mt-4">Este texto pode ser exibido ou não, dependendo do clique do botão.</div>
+        </div>
+    </div>
+    <div class="col-6 m-4">
+        <h2>Dropdown</h2>
+        <div class="dropdown mb-4">
+            <a class="btn btn-secondary dropdown-toggle" id="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown button</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-6 m-4">
+        <h2>Modal</h2>
+        <button class="btn btn-info" type="button" data-bs-toggle="modal" data-bs-target="#modal">Abrir modal</button>
+    </div>
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLabel">Este é o título do modal</h5>
+                    <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, aliquam unde. Eveniet at officiis voluptatum?</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Fechar modal</button>
+                    <button class="btn btn-success" type="button">Salvar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
