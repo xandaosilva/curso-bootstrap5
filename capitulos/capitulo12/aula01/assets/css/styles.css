@@ -1,0 +1,15 @@
+.box{
+    background-color: cadetblue;
+    height: 50px;
+}
+
+.box.float-end{
+    background-color: cornflowerblue;
+    width: 50px;
+}
+
+.box-sticky, .box-fixed{
+    width: 100px;
+    height: 100px;
+    background-color: darksalmon;
+}
